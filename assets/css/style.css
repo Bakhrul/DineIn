@@ -1,0 +1,484 @@
+body {
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.header-wrapper {
+    background-color: #1D1D1D;
+    width: 100%;
+    min-height: 666px;
+    height: 100%;
+}
+
+.navbar-custom {
+    position: fixed;
+    background: #1D1D1D !important;
+    padding: 30px 0;
+    z-index: 2;
+    width: 100% !important;
+}
+
+.navbar-custom .navbar-brand img {
+    width: 100px;
+}
+
+.navbar-custom .nav-item {
+    padding: 0 15px;
+}
+
+.navbar-custom .btn-register-nav {
+    background: #FBB031;
+    color: #1D1D1D;
+    border-radius: 5px;
+    padding: 5px;
+    width: 140px;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar-custom .btn-login-nav {
+    background: #1D1D1D;
+    border: 1px #FBB031 solid;
+    color: #FBB031;
+    border-radius: 5px;
+    padding: 5px;
+    width: 140px;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.header-wrapper .title-header {
+    color: #FBB031;
+    font-size: 74px;
+    font-weight: bold;
+}
+
+.header-wrapper .description-header {
+    color: rgba(255, 255, 255, 0.6);
+    ;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.header-wrapper .btn-header-register {
+    background: #FBB031;
+    color: #1D1D1D;
+    margin-top: 45px;
+    border-radius: 5px;
+    margin-bottom: 120px;
+    padding: 5px;
+    width: 200px;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header-wrapper .header-hero {
+    width: 36%;
+    height: 560px;
+    bottom: -50px;
+    position: absolute;
+    right: 0;
+}
+
+@media(max-width:1199px) {
+    .header-wrapper .title-header {
+        font-size: 52px;
+    }
+
+    .header-wrapper .description-header {
+        font-size: 18px;
+    }
+
+    .header-wrapper .btn-header-register {
+        margin-bottom: 120px;
+    }
+
+    .header-wrapper .header-hero {
+        width: 45%;
+    }
+}
+
+@media(max-width:991px) {
+    .navbar-nav {
+        padding-top: 20px;
+    }
+
+    .header-wrapper {
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 150px;
+    }
+
+    .header-wrapper .header-hero {
+        position: relative;
+        height: unset;
+        width: 100%;
+        max-width: 400px;
+        top: 20px !important;
+    }
+
+    .header-wrapper .btn-header-register {
+        margin-bottom: 20px;
+    }
+
+    .navbar-custom .nav-item {
+        padding: 15px 0 !important;
+    }
+
+    .navbar-custom {
+        background: #1D1D1D !important;
+    }
+
+    .navbar-custom .btn-register-nav {
+        width: 130px;
+        height: 45px;
+    }
+
+    .navbar-custom .btn-login-nav {
+        width: 130px;
+        height: 45px;
+    }
+
+    .header-wrapper .btn-header-register {
+        width: 160px;
+        height: 50px;
+    }
+}
+
+@media(max-width:767px) {
+    .header-wrapper .title-header {
+        font-size: 42px;
+    }
+
+    .header-wrapper .description-header {
+        font-size: 16px;
+    }
+
+    .header-wrapper .header-hero {
+        width: 90%;
+    }
+
+    .header-wrapper .btn-header-register {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.navbar-custom .navbar-toggler {
+    color: #FBB031 !important;
+    font-size: 28px;
+    outline: none !important;
+    border: 0 !important;
+    box-shadow: unset !important;
+}
+
+.navbar-custom .navbar-toggler:focus {
+    outline: none !important;
+}
+
+.about-wrapper {
+    padding: 130px 0 50px 0;
+}
+
+.about-wrapper .about-hero {
+    max-width: 300px;
+    width: 100%;
+}
+
+.about-wrapper .subtitle-about {
+    color: #FBB031;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-wrapper .title-about {
+    color: #1D1D1D;
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.about-wrapper .description-about {
+    color: rgba(29, 29, 29, 0.6);
+    padding: 0 !important;
+    margin-left: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+@media(max-width:991px) {
+    .about-wrapper .about-hero {
+        max-width: 250px;
+        width: 90%;
+    }
+
+    .about-wrapper {
+        padding: 70px 0 50px 0;
+    }
+
+    .about-wrapper .subtitle-about {
+        font-size: 16px;
+    }
+
+    .about-wrapper .title-about {
+        font-size: 28px;
+    }
+
+    .about-wrapper .description-about {
+        font-size: 15px;
+    }
+}
+
+.service-wrapper {
+    padding: 30px 0;
+}
+
+.service-wrapper .service-image {
+    max-width: 200px;
+}
+
+.service-wrapper .description-service {
+    color: rgba(29, 29, 29, 0.6);
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.service-wrapper .service-list {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background: #F2F2F2;
+}
+
+.service-wrapper .service-list .service-list-image {
+    width: 45px;
+    height: 45px;
+}
+
+.service-wrapper .service-list .service-list-description {
+    color: rgba(29, 29, 29, 0.7);
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.reason-wrapper .title-reason {
+    color: #FBB031;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.reason-wrapper .reason-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.reason-wrapper .reason-list .reason-list-image {
+    width: 90px;
+    height: 90px;
+}
+
+.reason-wrapper .reason-list .reason-list-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #1D1D1D;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.merchant-wrapper .title-merchant {
+    color: #FBB031;
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.merchant-wrapper .merchant-list {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FBB031;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.merchant-wrapper .rectangle-merchant-right {
+    position: absolute;
+    width: 150px;
+    z-index: -1 !important;
+    mix-blend-mode: normal;
+    height: 150px;
+    top: 320px;
+    left: 1px;
+}
+
+.merchant-wrapper .rectangle-merchant-left {
+    position: absolute;
+    width: 150px;
+    z-index: -1 !important;
+    mix-blend-mode: normal;
+    height: 150px;
+    top: 135px;
+    left: -20px;
+}
+
+@media(max-width:767px) {
+    .merchant-wrapper .rectangle-merchant-right {
+        display: none !important;
+    }
+
+    .merchant-wrapper .rectangle-merchant-left {
+        display: none !important;
+    }
+}
+
+.merchant-wrapper .btn-register-merchant {
+    background: #FBB031;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 5px;
+    color: #fff;
+
+}
+
+.footer-wrapper {
+    background: #FBB031;
+    padding: 50px 0 10px 0;
+    margin-top: 50px;
+}
+
+.footer-wrapper .footer-image {
+    width: 120px;
+}
+
+.footer-wrapper .footer-links {
+    list-style-type: none !important;
+    padding: 0 !important;
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer-wrapper .footer-links li {
+    padding: 0 0 40px 0;
+    font-size: 16px;
+}
+
+.form-reservasi-wrapper .header-form-reservasi {
+    color: #FBB031;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.form-reservasi-wrapper .subheader-form-reservasi {
+    color: #1D1D1D;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.form-reservasi-wrapper .title-form-reservasi {
+    font-size: 22px;
+    color: #FBB031;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.group-download {
+    background: #FBB031;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.group-download .title-group-download {
+    font-size: 32px;
+    padding-bottom: 20px;
+    color: #fff;
+    max-width: 600px;
+    font-weight: bold;
+}
+
+@media(max-width:991px) {
+    .group-download {
+        display: block !important;
+    }
+
+    .group-download .title-group-download {
+        font-size: 24px;
+    }
+}
+
+.form-reservasi .form-label{
+    font-weight: 600;
+    font-size: 15px;
+}
+.form-reservasi .form-input {
+
+    background: #F4F4F4 !important;
+    outline: none !important;
+    border: 0 !important;
+    color: #ACACAC;
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: unset !important;
+}
+.addtional-form-control{
+    font-size: 14px;
+    font-weight: 600;
+    background: #F4F4F4;
+    color: #FBB031;
+    padding: 10px;
+}
+.form-reservasi .form-select{
+    background: #F4F4F4 !important;
+    outline: none !important;
+    border: 0 !important;
+    color: #ACACAC;
+    font-size: 14px;
+    color: black;
+    width: 70px;
+    padding: 10px 15px;
+    box-shadow: unset !important;
+}
+.btn-submit-reservasi{
+    background: #FBB031;
+    padding: 13px 10px;
+    color: #ffff !important;
+    font-size: 16px;
+    margin-top: 30px;
+    outline: none !important;
+    font-weight: 600;
+    max-width: 450px;
+    margin-bottom: 30px;
+    box-shadow: unset !important;
+    border: 0 !important;
+    width: 100%;
+}
+.c-pointer{
+    cursor: pointer;
+}
